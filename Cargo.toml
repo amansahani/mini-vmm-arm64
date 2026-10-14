@@ -1,0 +1,17 @@
+[package]
+name = "mini-vmm-arm64"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "mini-vmm-arm64"
+path = "src/main.rs"
+
+[[bin]]
+name = "server-vm"
+path = "src/server_vm.rs"
+
+[dependencies]
+applevisor = "1.0.0"
+kasou = "0.1.0"
+libc = "0.2"
